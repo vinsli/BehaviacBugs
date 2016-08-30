@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="BehaviacBugs" xmlmetafolder="..\BehaviacBugs\Assets\Resources\Behaviac\workspace\xmlmeta" folder="behaviors" export="..\BehaviacBugs\Assets\Resources\Behaviac\workspace\exported">
+  <xmlmeta>BehaviacMeta.xml</xmlmeta>
+  <export>
+    <cs>
+      <isexported>False</isexported>
+      <exportunifiedfile>True</exportunifiedfile>
+      <folder>../../BehaviacBugs/Assets/Resources/Behaviac/workspace/exported</folder>
+    </cs>
+  </export>
+</workspace>
