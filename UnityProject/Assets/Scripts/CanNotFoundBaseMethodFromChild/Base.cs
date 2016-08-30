@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[behaviac.TypeMetaInfo()]
 public class Base : behaviac.Agent 
 {
 	[behaviac.MethodMetaInfo()]

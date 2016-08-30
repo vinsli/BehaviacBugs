@@ -11,7 +11,6 @@
     <struct Type="System::Object" DisplayName="Object" Desc="Object" IsRefType="true" />
   </types>
   <agents>
-    <agent classfullname="Base" base="behaviac::Agent" inherited="true" DisplayName="" Desc="" IsRefType="true" />
     <agent classfullname="behaviac::Agent" DisplayName="behaviac.Agent" Desc="behaviac.Agent" IsRefType="true">
       <Method Name="LogMessage" DisplayName="" Desc="" ReturnType="void" Class="behaviac::Agent" Static="true" Public="true">
         <Param DisplayName="message" Desc="message" Type="string" />
@@ -33,6 +32,11 @@
       </Method>
       <Method Name="VectorClear" DisplayName="" Desc="" ReturnType="void" Class="behaviac::Agent" Static="true" Public="true">
         <Param DisplayName="vector" Desc="vector" Type="System.Collections.IList" />
+      </Method>
+    </agent>
+    <agent classfullname="Base" base="behaviac::Agent" DisplayName="Base" Desc="Base" IsRefType="true">
+      <Method Name="BaseMethod" DisplayName="" Desc="" ReturnType="behaviac::EBTStatus" Class="Base" Public="true">
+        <Param DisplayName="speed" Desc="speed" Type="float" />
       </Method>
     </agent>
     <agent classfullname="Child" base="Base" DisplayName="Child" Desc="Child" IsRefType="true">
